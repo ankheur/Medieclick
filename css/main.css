@@ -112,8 +112,10 @@ textarea {
 
 #tresor {
     width: 20%;
-    border: 1px solid black;
-    padding: 0px;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 10px;
+    margin: 15px;
 }
 
 
@@ -121,17 +123,24 @@ textarea {
     text-align: center;
     width: 30%;
     margin: auto;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 #titreID {
+    font-size: large;
     text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#ressourcesID{
+    display: flex;
+    align-items: center;
 }
 
 .ressource {
     width: 20%;
     padding-left: 15px;
-
 }
 
 .ressource button {
