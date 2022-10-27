@@ -135,7 +135,7 @@ textarea {
 
 #ressourcesID{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .ressource {
@@ -147,6 +147,7 @@ textarea {
     display: block;
     margin-bottom: 5px;
 }
+
 
 #seigleImage {
     display: inline-block;
